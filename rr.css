@@ -1,1 +1,93 @@
+.container {
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    width: 560px;
+    height: 560px;
+}
+
+.mContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.square {
+    border: 3px solid orange;
+    border-radius: 5px;
+    background-color: bisque;
+    height: 70px;
+    width: 70px;
+    justify-items: center;
+    text-align: center;
+}
+
+body {
+    justify-content: center;
+}
+
+.square.highlight {
+    background-color: yellow;
+}
+
+.aTank {
+    color: white;
+    background-color: black;
+    border: 3px solid blue;
+    height: 70px;
+    width: 70px;
+    justify-items: center;
+    text-align: center;
+}
+
+.bTank {
+    color: white;
+    background-color: black;
+    border: 3px solid red;
+    height: 70px;
+    width: 70px;
+    justify-items: center;
+    text-align: center;
+}
+
+.aTitan {
+    color: white;
+    background-color: blue;
+    border: 3px solid blue;
+    height: 70px;
+    width: 70px;
+    justify-items: center;
+    text-align: center;
+}
+
+.bTitan {
+    color: white;
+    background-color: red;
+    border: 3px solid red;
+    height: 70px;
+    width: 70px;
+    justify-items: center;
+    text-align: center;
+}
+
+.aCanon, .bCanon {
+    color: white;
+    background-color: grey;
+    border: 3px solid grey;
+    height: 70px;
+    width: 70px;
+    justify-items: center;
+    text-align: center;
+}
+
+.bullet {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100;
+}
+
+        
 
